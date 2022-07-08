@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav {
+  background-color: inherit;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+li {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  height: 540px;
+  background-color: #fff;
+  font-size: 25px;
+  margin: 10rem;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+button {
+  height: 30px;
+  width: 22rem;
+  border-radius: 30px;
+  color: white;
+  border: solid black;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.issue-6 {
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+}
+
+.issue-6 a {
+  color: #d77cdd;
+}
+
+.issue-5,
+.issue-4,
+.issue-3,
+.issue-2,
+.issue-1 a {
+  color: #fff;
+}
+
+.issue-6,
+.issue-5,
+.issue-4,
+.issue-3,
+.issue-2,
+.issue-1 {
+  padding-top: 10px;
+}
+
+.issue-5 {
+  height: 100%;
+  background-color: #00c1b5;
+  text-align: center;
+  align-items: center;
+}
+
+.issue-4 {
+  height: 100%;
+  background-color: #ff651a;
+  text-align: center;
+  align-items: center;
+}
+
+.issue-3 {
+  height: 100%;
+  background-color: #ffbe00;
+  text-align: center;
+  align-items: center;
+}
+
+.issue-2 {
+  height: 100%;
+  background-color: #1d3fbb;
+  text-align: center;
+  align-items: center;
+}
+
+.issue-1 {
+  height: 100%;
+  background-color: #e30512;
+  text-align: center;
+  align-items: center;
+}
